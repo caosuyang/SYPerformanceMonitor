@@ -19,6 +19,8 @@
 		2055B63C29B98B3E003DC22A /* SYRunLoopMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B63A29B98B3E003DC22A /* SYRunLoopMonitor.m */; };
 		2055B64029B9A68E003DC22A /* SYCPUMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055B63E29B9A68E003DC22A /* SYCPUMonitor.h */; };
 		2055B64129B9A68E003DC22A /* SYCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B63F29B9A68E003DC22A /* SYCPUMonitor.m */; };
+		2055B64529B9DF95003DC22A /* SYMemoryMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055B64329B9DF94003DC22A /* SYMemoryMonitor.h */; };
+		2055B64629B9DF95003DC22A /* SYMemoryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B64429B9DF94003DC22A /* SYMemoryMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		2055B63A29B98B3E003DC22A /* SYRunLoopMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYRunLoopMonitor.m; sourceTree = "<group>"; };
 		2055B63E29B9A68E003DC22A /* SYCPUMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYCPUMonitor.h; sourceTree = "<group>"; };
 		2055B63F29B9A68E003DC22A /* SYCPUMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCPUMonitor.m; sourceTree = "<group>"; };
+		2055B64329B9DF94003DC22A /* SYMemoryMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYMemoryMonitor.h; sourceTree = "<group>"; };
+		2055B64429B9DF94003DC22A /* SYMemoryMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMemoryMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		2055B5D429B96B00003DC22A /* SYPerformanceMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				2055B64229B9DF6D003DC22A /* Memory */,
 				2055B62D29B96E1E003DC22A /* Caton */,
 				2055B63329B96E1E003DC22A /* StartupSpeed */,
 				2055B5D529B96B00003DC22A /* SYPerformanceMonitor.h */,
@@ -149,6 +154,15 @@
 			path = CPU;
 			sourceTree = "<group>";
 		};
+		2055B64229B9DF6D003DC22A /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				2055B64329B9DF94003DC22A /* SYMemoryMonitor.h */,
+				2055B64429B9DF94003DC22A /* SYMemoryMonitor.m */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -160,6 +174,7 @@
 				2055B5E329B96B01003DC22A /* SYPerformanceMonitor.h in Headers */,
 				2055B63429B96E1E003DC22A /* SYFPSLabel.h in Headers */,
 				2055B64029B9A68E003DC22A /* SYCPUMonitor.h in Headers */,
+				2055B64529B9DF95003DC22A /* SYMemoryMonitor.h in Headers */,
 				2055B63B29B98B3E003DC22A /* SYRunLoopMonitor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2055B63C29B98B3E003DC22A /* SYRunLoopMonitor.m in Sources */,
+				2055B64629B9DF95003DC22A /* SYMemoryMonitor.m in Sources */,
 				2055B63529B96E1E003DC22A /* SYWeakProxy.m in Sources */,
 				2055B5D729B96B00003DC22A /* SYPerformanceMonitor.docc in Sources */,
 				2055B64129B9A68E003DC22A /* SYCPUMonitor.m in Sources */,

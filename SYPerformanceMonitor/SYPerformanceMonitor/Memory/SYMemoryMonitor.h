@@ -1,5 +1,5 @@
 //
-//  SYCPUMonitor.h
+//  SYMemoryMonitor.h
 //  SYPerformanceMonitor
 //
 //  Created by csy on 2023/3/9.
@@ -9,8 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// CPU监听器
-@interface SYCPUMonitor : NSObject
+/// 内存使用监控器
+@interface SYMemoryMonitor : NSObject
 /// 初始化一个CPU监听器
 + (instancetype)shareInstance;
 

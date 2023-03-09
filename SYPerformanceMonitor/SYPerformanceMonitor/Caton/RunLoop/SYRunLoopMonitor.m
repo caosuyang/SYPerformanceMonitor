@@ -57,7 +57,7 @@
                 if (self->obsActivity == kCFRunLoopBeforeSources || self->obsActivity == kCFRunLoopAfterWaiting) {
                     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
                         // 9. dump 出堆栈的信息
-                        NSLog(@"dump 出堆栈的信息");
+                        // todo: dump 出堆栈的信息
                     });
                 }
             }
