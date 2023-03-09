@@ -43,7 +43,6 @@
     NSLog(@"CpuUsage over currentThread: %d", cpuUsage);
 }
 
-
 /**
  在usr/include/mach/thread_info.h中，可以看到线程基本信息的结构体thread_basic_info_t
  struct thread_basic_info {
