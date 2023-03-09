@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2055B5D729B96B00003DC22A /* SYPerformanceMonitor.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2055B5D629B96B00003DC22A /* SYPerformanceMonitor.docc */; };
+		2055B5DD29B96B01003DC22A /* SYPerformanceMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2055B5D229B96B00003DC22A /* SYPerformanceMonitor.framework */; };
+		2055B5E229B96B01003DC22A /* SYPerformanceMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B5E129B96B01003DC22A /* SYPerformanceMonitorTests.m */; };
+		2055B5E329B96B01003DC22A /* SYPerformanceMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055B5D529B96B00003DC22A /* SYPerformanceMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2055B63429B96E1E003DC22A /* SYFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055B62F29B96E1E003DC22A /* SYFPSLabel.h */; };
+		2055B63529B96E1E003DC22A /* SYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B63029B96E1E003DC22A /* SYWeakProxy.m */; };
+		2055B63629B96E1E003DC22A /* SYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055B63129B96E1E003DC22A /* SYWeakProxy.h */; };
+		2055B63729B96E1E003DC22A /* SYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B63229B96E1E003DC22A /* SYFPSLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2055B5DE29B96B01003DC22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2055B5C929B96B00003DC22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2055B5D129B96B00003DC22A;
+			remoteInfo = SYPerformanceMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2055B5D229B96B00003DC22A /* SYPerformanceMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYPerformanceMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2055B5D529B96B00003DC22A /* SYPerformanceMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPerformanceMonitor.h; sourceTree = "<group>"; };
+		2055B5D629B96B00003DC22A /* SYPerformanceMonitor.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SYPerformanceMonitor.docc; sourceTree = "<group>"; };
+		2055B5DC29B96B01003DC22A /* SYPerformanceMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYPerformanceMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2055B5E129B96B01003DC22A /* SYPerformanceMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPerformanceMonitorTests.m; sourceTree = "<group>"; };
+		2055B62F29B96E1E003DC22A /* SYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFPSLabel.h; sourceTree = "<group>"; };
+		2055B63029B96E1E003DC22A /* SYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWeakProxy.m; sourceTree = "<group>"; };
+		2055B63129B96E1E003DC22A /* SYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWeakProxy.h; sourceTree = "<group>"; };
+		2055B63229B96E1E003DC22A /* SYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFPSLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2055B5CF29B96B00003DC22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2055B5D929B96B01003DC22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2055B5DD29B96B01003DC22A /* SYPerformanceMonitor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2055B5C829B96B00003DC22A = {
+			isa = PBXGroup;
+			children = (
+				2055B5D429B96B00003DC22A /* SYPerformanceMonitor */,
+				2055B5E029B96B01003DC22A /* SYPerformanceMonitorTests */,
+				2055B5D329B96B00003DC22A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2055B5D329B96B00003DC22A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2055B5D229B96B00003DC22A /* SYPerformanceMonitor.framework */,
+				2055B5DC29B96B01003DC22A /* SYPerformanceMonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2055B5D429B96B00003DC22A /* SYPerformanceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				2055B62D29B96E1E003DC22A /* Caton */,
+				2055B63329B96E1E003DC22A /* StartupSpeed */,
+				2055B5D529B96B00003DC22A /* SYPerformanceMonitor.h */,
+				2055B5D629B96B00003DC22A /* SYPerformanceMonitor.docc */,
+			);
+			path = SYPerformanceMonitor;
+			sourceTree = "<group>";
+		};
+		2055B5E029B96B01003DC22A /* SYPerformanceMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2055B5E129B96B01003DC22A /* SYPerformanceMonitorTests.m */,
+			);
+			path = SYPerformanceMonitorTests;
+			sourceTree = "<group>";
+		};
+		2055B62D29B96E1E003DC22A /* Caton */ = {
+			isa = PBXGroup;
+			children = (
+				2055B63829B96EB5003DC22A /* RunLoop */,
+				2055B62E29B96E1E003DC22A /* FPS */,
+			);
+			path = Caton;
+			sourceTree = "<group>";
+		};
+		2055B62E29B96E1E003DC22A /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				2055B62F29B96E1E003DC22A /* SYFPSLabel.h */,
+				2055B63229B96E1E003DC22A /* SYFPSLabel.m */,
+				2055B63029B96E1E003DC22A /* SYWeakProxy.m */,
+				2055B63129B96E1E003DC22A /* SYWeakProxy.h */,
+			);
+			path = FPS;
+			sourceTree = "<group>";
+		};
+		2055B63329B96E1E003DC22A /* StartupSpeed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StartupSpeed;
+			sourceTree = "<group>";
+		};
+		2055B63829B96EB5003DC22A /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2055B5CD29B96B00003DC22A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2055B63629B96E1E003DC22A /* SYWeakProxy.h in Headers */,
+				2055B5E329B96B01003DC22A /* SYPerformanceMonitor.h in Headers */,
+				2055B63429B96E1E003DC22A /* SYFPSLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2055B5D129B96B00003DC22A /* SYPerformanceMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2055B5E629B96B01003DC22A /* Build configuration list for PBXNativeTarget "SYPerformanceMonitor" */;
+			buildPhases = (
+				2055B5CD29B96B00003DC22A /* Headers */,
+				2055B5CE29B96B00003DC22A /* Sources */,
+				2055B5CF29B96B00003DC22A /* Frameworks */,
+				2055B5D029B96B00003DC22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYPerformanceMonitor;
+			productName = SYPerformanceMonitor;
+			productReference = 2055B5D229B96B00003DC22A /* SYPerformanceMonitor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2055B5DB29B96B01003DC22A /* SYPerformanceMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2055B5E929B96B01003DC22A /* Build configuration list for PBXNativeTarget "SYPerformanceMonitorTests" */;
+			buildPhases = (
+				2055B5D829B96B01003DC22A /* Sources */,
+				2055B5D929B96B01003DC22A /* Frameworks */,
+				2055B5DA29B96B01003DC22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2055B5DF29B96B01003DC22A /* PBXTargetDependency */,
+			);
+			name = SYPerformanceMonitorTests;
+			productName = SYPerformanceMonitorTests;
+			productReference = 2055B5DC29B96B01003DC22A /* SYPerformanceMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2055B5C929B96B00003DC22A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2055B5D129B96B00003DC22A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2055B5DB29B96B01003DC22A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 2055B5CC29B96B00003DC22A /* Build configuration list for PBXProject "SYPerformanceMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2055B5C829B96B00003DC22A;
+			productRefGroup = 2055B5D329B96B00003DC22A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2055B5D129B96B00003DC22A /* SYPerformanceMonitor */,
+				2055B5DB29B96B01003DC22A /* SYPerformanceMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2055B5D029B96B00003DC22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2055B5DA29B96B01003DC22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2055B5CE29B96B00003DC22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2055B63529B96E1E003DC22A /* SYWeakProxy.m in Sources */,
+				2055B5D729B96B00003DC22A /* SYPerformanceMonitor.docc in Sources */,
+				2055B63729B96E1E003DC22A /* SYFPSLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2055B5D829B96B01003DC22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2055B5E229B96B01003DC22A /* SYPerformanceMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2055B5DF29B96B01003DC22A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2055B5D129B96B00003DC22A /* SYPerformanceMonitor */;
+			targetProxy = 2055B5DE29B96B01003DC22A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2055B5E429B96B01003DC22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2055B5E529B96B01003DC22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2055B5E729B96B01003DC22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6S34JWBQE8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caosuyang.SYPerformanceMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2055B5E829B96B01003DC22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6S34JWBQE8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caosuyang.SYPerformanceMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2055B5EA29B96B01003DC22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S34JWBQE8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caosuyang.SYPerformanceMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2055B5EB29B96B01003DC22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S34JWBQE8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caosuyang.SYPerformanceMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2055B5CC29B96B00003DC22A /* Build configuration list for PBXProject "SYPerformanceMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2055B5E429B96B01003DC22A /* Debug */,
+				2055B5E529B96B01003DC22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2055B5E629B96B01003DC22A /* Build configuration list for PBXNativeTarget "SYPerformanceMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2055B5E729B96B01003DC22A /* Debug */,
+				2055B5E829B96B01003DC22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2055B5E929B96B01003DC22A /* Build configuration list for PBXNativeTarget "SYPerformanceMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2055B5EA29B96B01003DC22A /* Debug */,
+				2055B5EB29B96B01003DC22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2055B5C929B96B00003DC22A /* Project object */;
+}
