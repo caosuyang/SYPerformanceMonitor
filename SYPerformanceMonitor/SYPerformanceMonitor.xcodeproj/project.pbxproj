@@ -15,6 +15,10 @@
 		2055B63529B96E1E003DC22A /* SYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B63029B96E1E003DC22A /* SYWeakProxy.m */; };
 		2055B63629B96E1E003DC22A /* SYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055B63129B96E1E003DC22A /* SYWeakProxy.h */; };
 		2055B63729B96E1E003DC22A /* SYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B63229B96E1E003DC22A /* SYFPSLabel.m */; };
+		2055B63B29B98B3E003DC22A /* SYRunLoopMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055B63929B98B3E003DC22A /* SYRunLoopMonitor.h */; };
+		2055B63C29B98B3E003DC22A /* SYRunLoopMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B63A29B98B3E003DC22A /* SYRunLoopMonitor.m */; };
+		2055B64029B9A68E003DC22A /* SYCPUMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055B63E29B9A68E003DC22A /* SYCPUMonitor.h */; };
+		2055B64129B9A68E003DC22A /* SYCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B63F29B9A68E003DC22A /* SYCPUMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 		2055B63029B96E1E003DC22A /* SYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWeakProxy.m; sourceTree = "<group>"; };
 		2055B63129B96E1E003DC22A /* SYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWeakProxy.h; sourceTree = "<group>"; };
 		2055B63229B96E1E003DC22A /* SYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFPSLabel.m; sourceTree = "<group>"; };
+		2055B63929B98B3E003DC22A /* SYRunLoopMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYRunLoopMonitor.h; sourceTree = "<group>"; };
+		2055B63A29B98B3E003DC22A /* SYRunLoopMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYRunLoopMonitor.m; sourceTree = "<group>"; };
+		2055B63E29B9A68E003DC22A /* SYCPUMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYCPUMonitor.h; sourceTree = "<group>"; };
+		2055B63F29B9A68E003DC22A /* SYCPUMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCPUMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,7 @@
 		2055B62D29B96E1E003DC22A /* Caton */ = {
 			isa = PBXGroup;
 			children = (
+				2055B63D29B9A677003DC22A /* CPU */,
 				2055B63829B96EB5003DC22A /* RunLoop */,
 				2055B62E29B96E1E003DC22A /* FPS */,
 			);
@@ -125,8 +134,19 @@
 		2055B63829B96EB5003DC22A /* RunLoop */ = {
 			isa = PBXGroup;
 			children = (
+				2055B63929B98B3E003DC22A /* SYRunLoopMonitor.h */,
+				2055B63A29B98B3E003DC22A /* SYRunLoopMonitor.m */,
 			);
 			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		2055B63D29B9A677003DC22A /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+				2055B63E29B9A68E003DC22A /* SYCPUMonitor.h */,
+				2055B63F29B9A68E003DC22A /* SYCPUMonitor.m */,
+			);
+			path = CPU;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +159,8 @@
 				2055B63629B96E1E003DC22A /* SYWeakProxy.h in Headers */,
 				2055B5E329B96B01003DC22A /* SYPerformanceMonitor.h in Headers */,
 				2055B63429B96E1E003DC22A /* SYFPSLabel.h in Headers */,
+				2055B64029B9A68E003DC22A /* SYCPUMonitor.h in Headers */,
+				2055B63B29B98B3E003DC22A /* SYRunLoopMonitor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2055B63C29B98B3E003DC22A /* SYRunLoopMonitor.m in Sources */,
 				2055B63529B96E1E003DC22A /* SYWeakProxy.m in Sources */,
 				2055B5D729B96B00003DC22A /* SYPerformanceMonitor.docc in Sources */,
+				2055B64129B9A68E003DC22A /* SYCPUMonitor.m in Sources */,
 				2055B63729B96E1E003DC22A /* SYFPSLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
