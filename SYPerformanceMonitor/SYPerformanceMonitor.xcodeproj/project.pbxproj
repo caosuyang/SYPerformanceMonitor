@@ -21,8 +21,12 @@
 		2055B64129B9A68E003DC22A /* SYCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B63F29B9A68E003DC22A /* SYCPUMonitor.m */; };
 		2055B64529B9DF95003DC22A /* SYMemoryMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055B64329B9DF94003DC22A /* SYMemoryMonitor.h */; };
 		2055B64629B9DF95003DC22A /* SYMemoryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055B64429B9DF94003DC22A /* SYMemoryMonitor.m */; };
-		31D5F6A329BA2C0200852532 /* SYLossTimeMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D5F6A129BA2C0200852532 /* SYLossTimeMonitor.h */; };
-		31D5F6A429BA2C0200852532 /* SYLossTimeMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F6A229BA2C0200852532 /* SYLossTimeMonitor.m */; };
+		20CC6FE229BB09B400CA166D /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 20CC6FDE29BB09B400CA166D /* fishhook.c */; };
+		20CC6FE329BB09B400CA166D /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CC6FDF29BB09B400CA166D /* fishhook.h */; };
+		20CC6FE429BB09B400CA166D /* SYLossTimeMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CC6FE029BB09B400CA166D /* SYLossTimeMonitor.h */; };
+		20CC6FE529BB09B400CA166D /* SYLossTimeMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC6FE129BB09B400CA166D /* SYLossTimeMonitor.m */; };
+		20CC6FE829BB0BCC00CA166D /* SYLossTimeCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CC6FE629BB0BCC00CA166D /* SYLossTimeCore.h */; };
+		20CC6FE929BB0BCC00CA166D /* SYLossTimeCore.c in Sources */ = {isa = PBXBuildFile; fileRef = 20CC6FE729BB0BCC00CA166D /* SYLossTimeCore.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +55,12 @@
 		2055B63F29B9A68E003DC22A /* SYCPUMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCPUMonitor.m; sourceTree = "<group>"; };
 		2055B64329B9DF94003DC22A /* SYMemoryMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYMemoryMonitor.h; sourceTree = "<group>"; };
 		2055B64429B9DF94003DC22A /* SYMemoryMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMemoryMonitor.m; sourceTree = "<group>"; };
-		31D5F6A129BA2C0200852532 /* SYLossTimeMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SYLossTimeMonitor.h; path = SYPerformanceMonitor/SYLossTimeMonitor.h; sourceTree = SOURCE_ROOT; };
-		31D5F6A229BA2C0200852532 /* SYLossTimeMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SYLossTimeMonitor.m; path = SYPerformanceMonitor/SYLossTimeMonitor.m; sourceTree = SOURCE_ROOT; };
+		20CC6FDE29BB09B400CA166D /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		20CC6FDF29BB09B400CA166D /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		20CC6FE029BB09B400CA166D /* SYLossTimeMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLossTimeMonitor.h; sourceTree = "<group>"; };
+		20CC6FE129BB09B400CA166D /* SYLossTimeMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYLossTimeMonitor.m; sourceTree = "<group>"; };
+		20CC6FE629BB0BCC00CA166D /* SYLossTimeCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYLossTimeCore.h; sourceTree = "<group>"; };
+		20CC6FE729BB0BCC00CA166D /* SYLossTimeCore.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SYLossTimeCore.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +144,12 @@
 		2055B63329B96E1E003DC22A /* StartupSpeed */ = {
 			isa = PBXGroup;
 			children = (
-				31D5F6A129BA2C0200852532 /* SYLossTimeMonitor.h */,
-				31D5F6A229BA2C0200852532 /* SYLossTimeMonitor.m */,
+				20CC6FDE29BB09B400CA166D /* fishhook.c */,
+				20CC6FDF29BB09B400CA166D /* fishhook.h */,
+				20CC6FE029BB09B400CA166D /* SYLossTimeMonitor.h */,
+				20CC6FE129BB09B400CA166D /* SYLossTimeMonitor.m */,
+				20CC6FE629BB0BCC00CA166D /* SYLossTimeCore.h */,
+				20CC6FE729BB0BCC00CA166D /* SYLossTimeCore.c */,
 			);
 			path = StartupSpeed;
 			sourceTree = "<group>";
@@ -176,11 +188,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CC6FE829BB0BCC00CA166D /* SYLossTimeCore.h in Headers */,
 				2055B63629B96E1E003DC22A /* SYWeakProxy.h in Headers */,
 				2055B5E329B96B01003DC22A /* SYPerformanceMonitor.h in Headers */,
+				20CC6FE329BB09B400CA166D /* fishhook.h in Headers */,
 				2055B63429B96E1E003DC22A /* SYFPSLabel.h in Headers */,
 				2055B64029B9A68E003DC22A /* SYCPUMonitor.h in Headers */,
-				31D5F6A329BA2C0200852532 /* SYLossTimeMonitor.h in Headers */,
+				20CC6FE429BB09B400CA166D /* SYLossTimeMonitor.h in Headers */,
 				2055B64529B9DF95003DC22A /* SYMemoryMonitor.h in Headers */,
 				2055B63B29B98B3E003DC22A /* SYRunLoopMonitor.h in Headers */,
 			);
@@ -284,11 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2055B63C29B98B3E003DC22A /* SYRunLoopMonitor.m in Sources */,
+				20CC6FE229BB09B400CA166D /* fishhook.c in Sources */,
+				20CC6FE529BB09B400CA166D /* SYLossTimeMonitor.m in Sources */,
 				2055B64629B9DF95003DC22A /* SYMemoryMonitor.m in Sources */,
 				2055B63529B96E1E003DC22A /* SYWeakProxy.m in Sources */,
+				20CC6FE929BB0BCC00CA166D /* SYLossTimeCore.c in Sources */,
 				2055B5D729B96B00003DC22A /* SYPerformanceMonitor.docc in Sources */,
 				2055B64129B9A68E003DC22A /* SYCPUMonitor.m in Sources */,
-				31D5F6A429BA2C0200852532 /* SYLossTimeMonitor.m in Sources */,
 				2055B63729B96E1E003DC22A /* SYFPSLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
