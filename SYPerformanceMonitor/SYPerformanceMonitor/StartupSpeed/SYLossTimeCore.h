@@ -9,6 +9,7 @@
 #define SYLossTimeCore_h
 
 #include <stdio.h>
+#include <objc/objc.h>
 
 typedef struct {
     __unsafe_unretained Class cls;
@@ -17,6 +18,8 @@ typedef struct {
     int depth;
 } call_record;
 
+/// 开始监听
 extern void start_monitor();
+/// 结束监听
 extern void end_monitor();
 #endif /* SYLossTimeCore_h */
