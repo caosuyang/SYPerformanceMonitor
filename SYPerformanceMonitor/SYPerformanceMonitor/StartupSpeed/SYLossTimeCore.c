@@ -212,6 +212,7 @@ static void hook_Objc_msgSend() {
 }
 
 #pragma mark - public methods
+// fix: This old-style function definition is not preceded by a prototype
 void start_monitor(void) {
     _call_record_enabled = true;
     static dispatch_once_t onceToken;
