@@ -11,18 +11,6 @@
 #include <dispatch/dispatch.h>
 #include "fishhook.h"
 #include <sys/time.h>
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <string.h>
-//#include <stddef.h>
-//#include <stdint.h>
-//#include <sys/types.h>
-//#include <sys/stat.h>
-//#include <sys/time.h>
-//#include <objc/message.h>
-//#include <objc/runtime.h>
-//#include <dispatch/dispatch.h>
-//#include <pthread.h>
 
 #pragma mark - static
 __unused static id (*orig_objc_msgSend)(id, SEL, ...);
