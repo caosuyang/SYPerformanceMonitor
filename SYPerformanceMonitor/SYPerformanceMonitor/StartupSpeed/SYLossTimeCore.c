@@ -130,7 +130,7 @@ void before_objc_msgSend(id self, SEL _cmd, uintptr_t lr) {
 }
 
 /// objc_msgSend方法执行后
-uintptr_t after_objc_msgSend() {
+uintptr_t after_objc_msgSend(void) {
     return pop_call_record();
 }
 

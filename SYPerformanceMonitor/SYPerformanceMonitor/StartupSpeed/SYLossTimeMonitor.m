@@ -6,24 +6,16 @@
 //
 
 #import "SYLossTimeMonitor.h"
+#import "SYLossTimeCore.h"
 
 @implementation SYLossTimeMonitor
-#pragma mark - init
-+ (instancetype)shareInstance {
-    static SYLossTimeMonitor *instance = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        instance = [[self alloc] init];
-    });
-    return instance;
-}
 
 #pragma mark - public methods
 - (void)startMonitor {
-
+    start_monitor();
 }
 
 - (void)endMonitor {
-
+    end_monitor();
 }
 @end
